@@ -1,4 +1,5 @@
-## ALBERT-Persian: A Lite BERT for Self-supervised Learning of Language Representations for the Persian Language
+## ALBERT-Persian: A Lite BERT for Self-supervised Learning of Language Representations for the Persian Language 
+> میتونی بهش بگی برت_کوچولو
 
 ALBERT-Persian is the first attempt on ALBERT for the Persian Language. The model was trained based on Google's ALBERT BASE Version 2.0 over various writing styles from numerous subjects (e.g., scientific, novels, news) with more than `3.9M` documents, `73M` sentences, and `1.3B` words, like the way we did for [ParsBERT](https://github.com/hooshvare/parsbert).
 
