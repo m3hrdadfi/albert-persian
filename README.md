@@ -2,6 +2,10 @@
 
 ALBERT-Persian is the first attempt on ALBERT for the Persian Language. The model was trained based on Google's ALBERT BASE Version 2.0 over various writing styles from numerous subjects (e.g., scientific, novels, news) with more than `3.9M` documents, `73M` sentences, and `1.3B` words, like the way we did for [ParsBERT](https://github.com/hooshvare/parsbert).
 
+[![ALBERT-Persian Demo](/assets/albert-fa-base-v2.png)](https://youtu.be/QmoLTk0rh8U)
+
+[ALBERT-Persian Playground](http://albert-lab.m3hrdadfi.me/)
+
 ## Goals
 
 ### Base Config
