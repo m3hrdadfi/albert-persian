@@ -62,7 +62,10 @@ The following tables summarize the F1 scores obtained by ALBERT-Persian as compa
 
 ## How to use
 
-### TensorFlow 2.0
+  - for using any type of Albert you have to install sentencepiece
+  - run this in your notebook ``` !pip install -q sentencepiece ```
+
+### TensorFlow 2.0 
 
 ```python
 from transformers import AutoConfig, AutoTokenizer, TFAutoModel
@@ -86,6 +89,11 @@ from transformers import AutoConfig, AutoTokenizer, AutoModel
 config = AutoConfig.from_pretrained("m3hrdadfi/albert-fa-base-v2")
 tokenizer = AutoTokenizer.from_pretrained("m3hrdadfi/albert-fa-base-v2")
 model = AutoModel.from_pretrained("m3hrdadfi/albert-fa-base-v2")
+
+text = "ما در هوشواره معتقدیم با انتقال صحیح دانش و آگاهی، همه افراد می‌توانند از ابزارهای هوشمند استفاده کنند. شعار ما هوش مصنوعی برای همه است."
+tokenizer.tokenize(text)
+
+>>> ['▁ما', '▁در', '▁هوش', 'واره', '▁معتقد', 'یم', '▁با', '▁انتقال', '▁صحیح', '▁دانش', '▁و', '▁اگاه', 'ی', '،', '▁همه', '▁افراد', '▁می', '▁توانند', '▁از', '▁ابزارهای', '▁هوشمند', '▁استفاده', '▁کنند', '.', '▁شعار', '▁ما', '▁هوش', '▁مصنوعی', '▁برای', '▁همه', '▁است', '.']
 ```
 
 ## Models
