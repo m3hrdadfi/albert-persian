@@ -203,7 +203,7 @@ I didn't publish any paper about this work, yet! Please cite in your publication
 
 ```bibtex
 @misc{ALBERTPersian,
-  author = {Mehrdad Farahani},
+  author = {Hooshvare Team},
   title = {ALBERT-Persian: A Lite BERT for Self-supervised Learning of Language Representations for the Persian Language},
   year = {2021},
   publisher = {GitHub},
