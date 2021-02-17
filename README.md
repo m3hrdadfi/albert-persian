@@ -31,6 +31,7 @@ ALBERT-Persian is the first attempt on ALBERT for the Persian Language. The mode
     - [Albert Text Classification](#albert-text-classification)
     - [Albert NER](#albert-ner)
 - [NLP Tasks Tutorial  :hugs:](#nlp-tasks-tutorial--hugs)
+- [Participants](#participants)
 - [Cite](#cite)
 - [Questions?](#questions)
 - [Releases](#releases)
@@ -182,7 +183,6 @@ tokenizer.tokenize(text)
 - [m3hrdadfi/albert-fa-base-v2-ner-arman](https://huggingface.co/m3hrdadfi/albert-fa-base-v2-ner-arman) 
 
 
-
 # NLP Tasks Tutorial  :hugs:
 | Notebook     |      Description      |   |
 |:----------|:-------------|------:|
@@ -192,6 +192,10 @@ tokenizer.tokenize(text)
 | Text Generation | ... | soon |
 
 
+See also the list of contributors who participated in this project.
+
+# Participants
+See also the list of [contributors](https://github.com/m3hrdadfi/albert-persian/contributors) who participated in this project.
 
 # Cite
 
@@ -210,6 +214,7 @@ I didn't publish any paper about this work, yet! Please cite in your publication
 
 # Questions?
 Post a Github issue on the [ALBERT-Persian](https://github.com/m3hrdadfi/albert-persian) repo.
+
 
 # Releases
 
